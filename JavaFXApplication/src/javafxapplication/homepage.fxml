@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane prefHeight="5220.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="5220.0" prefWidth="1440.0" style="-fx-background-color: #E2E2E2;">
+         <children>
+            <AnchorPane prefHeight="120.0" prefWidth="1440.0" style="-fx-background-color: F4A261;">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="104.0" layoutX="88.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="1249.0">
+                     <image>
+                        <Image url="@round.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="216.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARE">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="1226.0" layoutY="6.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: F4A261;" textFill="WHITE">
+                     <graphic>
+                        <SplitMenuButton mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" visible="false">
+                          <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <Label text="Santo Tomas">
+                                       <font>
+                                          <Font size="36.0" />
+                                       </font>
+                                       <graphic>
+                                          <ImageView fitHeight="172.0" fitWidth="204.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@person2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Label>
+                                 </graphic>
+                              </MenuItem>
+                            <MenuItem mnemonicParsing="false" text="About">
+                                 <graphic>
+                                    <Button mnemonicParsing="false" text="About">
+                                       <font>
+                                          <Font size="37.0" />
+                                       </font>
+                                    </Button>
+                                 </graphic>
+                              </MenuItem>
+                            <MenuItem mnemonicParsing="false" text="Settings">
+                                 <graphic>
+                                    <Button mnemonicParsing="false" text="Settings">
+                                       <font>
+                                          <Font size="47.0" />
+                                       </font>
+                                    </Button>
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem mnemonicParsing="false" text="Log Out">
+                                 <graphic>
+                                    <Button mnemonicParsing="false" text="Log Out" textFill="RED">
+                                       <font>
+                                          <Font size="45.0" />
+                                       </font>
+                                    </Button>
+                                 </graphic>
+                              </MenuItem>
+                          </items>
+                        </SplitMenuButton>
+                     </graphic>
+                  </Button>
+                  <ImageView fitHeight="92.0" fitWidth="123.0" layoutX="1228.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@person.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="47.0" layoutX="1352.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@arrow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="894.0" fitWidth="1179.0" layoutX="131.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@world.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutY="1014.0" prefHeight="1105.0" prefWidth="1440.0" style="-fx-background-color: #333333;">
+               <children>
+                  <Text fill="WHITE" layoutX="88.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recent Updates">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="88.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Updated as of: March 23, 2021">
+                     <font>
+                        <Font name="System Italic" size="50.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="514.0" fitWidth="1264.0" layoutX="88.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@street.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="88.0" layoutY="777.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flash Flood Warning in Sampaloc Manila" wrappingWidth="1393.4609375">
+                     <font>
+                        <Font size="80.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="103.0" layoutY="348.0" prefHeight="264.0" prefWidth="1235.0" style="-fx-background-color: #F4A261;">
+               <children>
+                  <Text fill="WHITE" layoutX="26.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calamity Awareness and Risk Elimination">
+                     <font>
+                        <Font name="Myanmar Text" size="66.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="326.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Take CARE and stay safe.”">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Button accessibleRole="CONTEXT_MENU" alignment="CENTER_RIGHT" graphicTextGap="5.0" layoutX="194.0" layoutY="754.0" mnemonicParsing="false" prefHeight="166.0" prefWidth="456.0" style="-fx-background-color: #FCFCFC; -fx-background-radius: 10; -fx-cursor: hand;" text="News" textAlignment="RIGHT">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER_RIGHT" graphicTextGap="5.0" layoutX="812.0" layoutY="754.0" mnemonicParsing="false" prefHeight="166.0" prefWidth="456.0" style="-fx-background-color: #FCFCFC; -fx-background-radius: 10; -fx-cursor: hand;" text="Guides">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Button>
+            <Button layoutX="963.0" layoutY="1975.0" mnemonicParsing="false" prefHeight="434.0" prefWidth="406.0" style="-fx-background-radius: 10; -fx-background-color: #FCFCFC;">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="107.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@earthquake.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="14.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please expect possible">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aftershocks">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="156.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to occur in areas">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="near">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="71.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pampanga.">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="208.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please be">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aware of your surroundings and proceed with caution." wrappingWidth="357.5439453125">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button layoutX="517.0" layoutY="1975.0" mnemonicParsing="false" prefHeight="434.0" prefWidth="406.0" style="-fx-background-radius: 10; -fx-background-color: #FCFCFC;">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="96.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@flood.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="14.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please expect possible">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to occur in">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please proceed with">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="262.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tsunami">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="137.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roxas Boulevard.">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="239.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="caution.">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button layoutX="72.0" layoutY="1975.0" mnemonicParsing="false" prefHeight="434.0" prefWidth="406.0" style="-fx-background-radius: 10; -fx-background-color: #FCFCFC;">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FCFCFC;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="121.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@rain.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="14.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please expect continuous">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="179.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to occur in ">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="necessary procedures.">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="heavy rainfall">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quezon City.">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="167.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please follow the">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <AnchorPane layoutX="272.0" layoutY="2476.0" prefHeight="267.15" prefWidth="896.0" style="-fx-background-color: F4A261; -fx-background-radius: 10;">
+               <children>
+                  <Text fill="WHITE" layoutX="181.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disaster Tips">
+                     <font>
+                        <Font size="96.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="5132.0" prefHeight="88.0" prefWidth="1440.0" style="-fx-background-color: #F4A261;" />
+            <AnchorPane layoutY="4565.0" prefHeight="567.0" prefWidth="1440.0" style="-fx-background-color: #333333;">
+               <children>
+                  <Text fill="WHITE" layoutX="208.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The CARE webpage  is constantly reviewed and updated to avoid bugs and errors, but we cannot guarantee full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 2021. All Rights Reserved." textAlignment="CENTER" wrappingWidth="1021.357421875">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="160.0" fitWidth="160.0" layoutX="639.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@square.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="512.0" fitWidth="626.0" layoutX="800.0" layoutY="2744.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@meditate.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="626.0" fitWidth="626.0" layoutX="14.0" layoutY="3256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@materials.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="477.0" fitWidth="654.0" layoutX="772.0" layoutY="3882.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@news.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="789.0" layoutY="3514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bring with you at all times a disaster kit containing all of your necessities" textAlignment="RIGHT" wrappingWidth="579.7236328125">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <Text layoutX="72.0" layoutY="4074.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frequently listen to the news to be updated on the happenings around you" wrappingWidth="638.8125">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="247.0" layoutY="773.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@new.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="869.0" layoutY="796.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Guides.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="131.0" layoutY="2954.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keep Calm whenever a disaster occurs" wrappingWidth="448.658203125">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <AnchorPane fx:id="LocalNews" layoutX="110.0" layoutY="950.0" prefHeight="1275.0" prefWidth="1197.0" style="-fx-background-color: FCFCFC;">
+               <children>
+                  <AnchorPane prefHeight="217.0" prefWidth="1197.0" style="-fx-background-color: #F4A261;">
+                     <children>
+                        <Button fx:id="localNewsButton" layoutX="1034.0" layoutY="59.0" mnemonicParsing="false" onAction="#QuickClose" opacity="0.74" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #F4A261;">
+                           <font>
+                              <Font name="System Bold" size="59.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@x.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flash Flood warning in Sampaloc, Manila" wrappingWidth="798.96875">
+                           <font>
+                              <Font name="System Bold" size="64.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="413.0" fitWidth="1072.0" layoutX="63.0" layoutY="217.0">
+                     <image>
+                        <Image url="@street.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="63.0" layoutY="676.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Philippine Athmospheric, Geophysical and Astronomical Services Administration or PAGASA has announced a flood warning  in Sampaloc, Manila. This is due to the continuouos heavy rainfall that the city has recently experienced. The residence of the afftected area are requested to coordinate with their local government units to avoid and lessen any possible damages to property and life. The area is expected to also experience heavy traffic. Please proceed with caution when going near the area.   " textAlignment="JUSTIFY" wrappingWidth="1071.28125">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="LocalNews1" layoutX="110.0" layoutY="950.0" prefHeight="1275.0" prefWidth="1197.0" style="-fx-background-color: FCFCFC;">
+               <children>
+                  <AnchorPane prefHeight="217.0" prefWidth="1197.0" style="-fx-background-color: #F4A261;">
+                     <children>
+                        <Button fx:id="localNewsButton1" layoutX="1034.0" layoutY="59.0" mnemonicParsing="false" onAction="#QuickClose" opacity="0.74" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #F4A261;">
+                           <font>
+                              <Font name="System Bold" size="59.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@x.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heavy Rainfall warning in Quezon City" wrappingWidth="798.96875">
+                           <font>
+                              <Font name="System Bold" size="64.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="520.0" fitWidth="911.0" layoutX="143.0" layoutY="217.0">
+                     <image>
+                        <Image url="@rainfall.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="63.0" layoutY="776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Philippine Athmospheric, Geophysical and Astronomical Services Administration or PAGASA has announced a rainfall warning in Quezon City. This is due to the low pressure area occurring near the affected area. The affected area is also experiencing heavy winds.  Proceed with caution if you are in the affected area or planning to enter the affected area." textAlignment="JUSTIFY" wrappingWidth="1071.28125">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="LocalNews11" layoutX="110.0" layoutY="950.0" prefHeight="1275.0" prefWidth="1197.0" style="-fx-background-color: FCFCFC;">
+               <children>
+                  <AnchorPane prefHeight="217.0" prefWidth="1197.0" style="-fx-background-color: #F4A261;">
+                     <children>
+                        <Button fx:id="localNewsButton11" layoutX="1034.0" layoutY="59.0" mnemonicParsing="false" onAction="#QuickClose" opacity="0.74" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #F4A261;">
+                           <font>
+                              <Font name="System Bold" size="59.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@x.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tsunami Warning in Roxas Boulevard" wrappingWidth="798.96875">
+                           <font>
+                              <Font name="System Bold" size="64.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="520.0" fitWidth="911.0" layoutX="143.0" layoutY="217.0">
+                     <image>
+                        <Image url="@tsunami.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="63.0" layoutY="776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="According to the Philippine Institute of Volcanology and Seismology or PHIVOLCS, the Roxas Boulevard area within Metro Manila, as well as the cities of Valenzuela, Navotas, Malabon, Manila, Pasay, Las Piñas, and Parañaque, face the threat of tsunami that could be generated from a possible movement of the Manila Trench. DOST-PHIVOLCS also encourages everyone to join the Nationwide Simultaneous Earthquake and Tsunami Drill on April 04, 2021." textAlignment="JUSTIFY" wrappingWidth="1071.28125">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="LocalNews111" layoutX="110.0" layoutY="950.0" prefHeight="1275.0" prefWidth="1197.0" style="-fx-background-color: FCFCFC;">
+               <children>
+                  <AnchorPane prefHeight="217.0" prefWidth="1197.0" style="-fx-background-color: #F4A261;">
+                     <children>
+                        <Button fx:id="localNewsButton111" layoutX="1034.0" layoutY="59.0" mnemonicParsing="false" onAction="#QuickClose" opacity="0.74" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #F4A261;">
+                           <font>
+                              <Font name="System Bold" size="59.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@x.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aftershock Warning in Pampanga" wrappingWidth="798.96875">
+                           <font>
+                              <Font name="System Bold" size="64.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="520.0" fitWidth="911.0" layoutX="143.0" layoutY="217.0">
+                     <image>
+                        <Image url="@aftershock.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="63.0" layoutY="776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="With the recent earthquake with a magnitude of 5.2 that has recently occured in the province of Pampanga, the Philippine Institute of Volcanology and Seismology or PHILVOCS has announced an aftershock warning in the affected area. The cities such as Angeles City, San Fernando City and Mabalacat City are the cities that is affected by the aftershock warning. The residence of the said cities should proceed with caution and to be always alert with their surroundings." textAlignment="JUSTIFY" wrappingWidth="1071.28125">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            
+                        
+            
+                     </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
